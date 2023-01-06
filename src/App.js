@@ -29,10 +29,9 @@ function App() {
         <Routes>
 
           <Route path="/" element={<Navbar />} >
-
+  <Route index element={<Home />} />
             <Route path="/" element={<PrivateRoute />}>
-              <Route index element={<Home />} />
-
+             
 
               <Route path="contact" element={<Contact />} />
             </Route>
