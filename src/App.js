@@ -30,11 +30,11 @@ function App() {
 
           <Route path="/" element={<Navbar />} >
   <Route index element={<Home />} />
-            <Route path="/" element={<PrivateRoute />}>
+           
              
 
               <Route path="contact" element={<Contact />} />
-            </Route>
+           
 
             <Route path="product" element={<Product />}>
 
